@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+
+    background-color: #dcdcdc;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#calculadora{
+
+    width: 550px;
+    height: 700px;
+    background-color: #363636;
+    margin:auto;
+    border-radius: 32px;
+    box-shadow: 4px 4px 8px 2px blue;
+
+}
+h3{
+
+    text-align: right;
+    color: blue;
+    padding-top: 8px;
+    padding-left: 24px;
+}
+
+#resultado
+{
+font-family: inherit;   
+font-size: 60px; 
+width: 510px;
+height: 132px;
+margin: 24px;
+border: nome;
+text-align: right;
+cursor: not-allowed;
+border-radius: 24px;
+box-shadow: inset 4px 4px 32px red;
+}
+
+#containerBotao{
+
+   display: grid; 
+   grid-template-columns: 96px 96px 96px 96px 96px;
+   grid-gap: 8px;
+   grid-template-rows: 100px 100px 100px 100px;
+   margin-left: 24px;
+   
+}
+
+#igual{
+    height: 206px;
+    font-size: 60px;
+    background-color: aqua;
+}
+
+button{
+
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px black ;
+    
+}
+
+button:hover{
+box-shadow: inset 4px 4px 16px rgb(49, 1, 97);
+background-color: blueviolet;
+
+}
